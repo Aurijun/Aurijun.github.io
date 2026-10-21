@@ -1340,22 +1340,3 @@ pre .javascript .function {
 .gitment-comment p {
   text-indent: 0;
 }
-
-/* 文章正文及标题优先使用 Emoji 字体 */
-.post-content {
-  font-family:
-    "Segoe UI Emoji",
-    "Apple Color Emoji",
-    "Noto Color Emoji",
-    "Microsoft YaHei",
-    sans-serif;
-}
-
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-  font-family: inherit;
-}
