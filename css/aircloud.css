@@ -1340,3 +1340,17 @@ pre .javascript .function {
 .gitment-comment p {
   text-indent: 0;
 }
+
+/* 为正文和标题提供 Emoji 字体回退 */
+body,
+h1, h2, h3, h4, h5, h6 {
+  font-family:
+    "Helvetica Neue",
+    Arial,
+    "PingFang SC",
+    "Microsoft YaHei",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Noto Color Emoji",
+    sans-serif;
+}
